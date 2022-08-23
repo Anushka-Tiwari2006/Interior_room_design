@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src = "https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+    </head>
+    <body>
+        <a-scene background = "color:black">
+            <!--ground-->
+            <a-plane
+            id="ground"
+            position="0 0 0"
+            rotation="-90 0 0"
+            width="10"
+            height="10"
+            src = "https://img.cgaxis.com/2020/01/dark_strip_wood_parquet_20_100_glossiness.jpg"
+            ></a-plane>
+            <!--backwall-->
+            <a-plane
+            id="backwall"
+            position="0 6.5 -5"
+            width="10"
+            height="13"
+            src = "https://raw.githubusercontent.com/Anushka-Tiwari2006/images/main/thumb-1920-5.jpg"
+            ></a-plane>
+            <!--leftwall-->
+            <a-plane
+            position="-5 6.5 -3.5"
+            width="3"
+            height="13"
+            color = "pink"
+            rotation = "0 90 0"
+        
+            ></a-plane>
+            <!--rightwall-->
+            <a-plane
+            position="5 6.5 -3.5"
+            width="3"
+            height="13"
+            color = "pink"
+            rotation = "0 -90 0"
+            ></a-plane>
+            <!--picture-->
+            <a-plane 
+            position = "-1.4 4.4 -5"
+            width = "2.5"
+            height = "2.5"
+            depth = "1"
+            src = "https://raw.githubusercontent.com/Anushka-Tiwari2006/images/main/heavenrose-art-festival.jpg"
+            color = "white"></a-plane>
+            <!--sofa-->
+            <a-box
+            position = "-1 0.5 -5"
+            width = "3.5"
+            height = "1"
+            depth = "2.5"
+            color = "white"
+            src = "https://raw.githubusercontent.com/Anushka-Tiwari2006/images/main/black-color-sofa-texture_73089-56.webp">
+            </a-box>
+            <a-box
+            position = "-1 1.5 -5.3"
+            width = "2"
+            height = "1"
+            depth = "3.5"
+            rotation = "0 90 0"
+            src = "https://raw.githubusercontent.com/Anushka-Tiwari2006/images/main/black-color-sofa-texture_73089-56.webp">
+            </a-box>
+            <a-cylinder
+            position = "0.6 1.2 -4"
+            rotation = "90 0 0"
+            radius = "0.2"
+            src = "https://raw.githubusercontent.com/Anushka-Tiwari2006/images/main/black-color-sofa-texture_73089-56.webp">
+            ></a-cylinder>
+            <a-cylinder
+            position = "-2.4 1.2 -4"
+            rotation = "90 0 0"
+            radius = "0.2"
+            src = "https://raw.githubusercontent.com/Anushka-Tiwari2006/images/main/black-color-sofa-texture_73089-56.webp">
+            ></a-cylinder>
+            <!--lamp-->
+            <a-cylinder
+            position = "3 1.2 -3.5"
+            radius = "0.04"
+            height = "3"
+            src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcHdlU879hhot3uYu9JdTEtB7kQrq5Uf5Qjw8bqHVnpPbl5ikndrHtvaZZ9GrT17Vr8Is&usqp=CAU"
+            ></a-cylinder>
+            <a-cone 
+            position = "3.2 2.8 -3.8" 
+            color = "#FEA3AA" 
+            radius-bottom = "0.6" 
+            radius-top = "0.3" 
+            height = "1"></a-cone>
+            <a-box
+            position = "3 0 -3.5"
+            width = "0.6"
+            height = "0.1"
+            depth = "0.4"
+            src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcHdlU879hhot3uYu9JdTEtB7kQrq5Uf5Qjw8bqHVnpPbl5ikndrHtvaZZ9GrT17Vr8Is&usqp=CAU"
+            ></a-box>
+            <!--self-->
+            <a-box
+            position = "-4.6 3.5 -5.3"
+            width = "3"
+            height = "0.1"
+            depth = "0.8"
+            rotation = '0 90 0'
+            src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcHdlU879hhot3uYu9JdTEtB7kQrq5Uf5Qjw8bqHVnpPbl5ikndrHtvaZZ9GrT17Vr8Is&usqp=CAU"
+            ></a-box>
+            <a-box
+            position = "-4.6 2.5 -5.3"
+            width = "3"
+            height = "0.1"
+            depth = "0.8"
+            rotation = '0 90 0'
+            src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcHdlU879hhot3uYu9JdTEtB7kQrq5Uf5Qjw8bqHVnpPbl5ikndrHtvaZZ9GrT17Vr8Is&usqp=CAU"
+            ></a-box>
+            <!--table-->
+            <a-box
+            src="https://raw.githubusercontent.com/Anushka-Tiwari2006/images/main/depositphotos_53492857-stock-photo-colorful-carpet-texture.jpg"
+            width="1"
+            height="0.8"
+            position="0 0.88 -2"
+            rotation="90 0 0"
+            depth="0.1">
+        </a-box>
+        <a-cylinder
+        src="https://raw.githubusercontent.com/Anushka-Tiwari2006/images/main/depositphotos_53492857-stock-photo-colorful-carpet-texture.jpg"
+            height="0.5"
+            position="0 0.6 -2"
+            radius = "0.4">
+        ></a-cylinder>
+
+
+        </a-scene>
+    </body>
+</html>
